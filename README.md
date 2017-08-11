@@ -59,3 +59,10 @@ The notebooks below provide the code for the analysis of the above datasets as r
 - Application 1: [Identifying the owner of a provenance document](Application%201%20-%20ProvStore%20Documents.ipynb)
 - Application 2: [Assessing the trustworthiness of crowdsourced data in CollabMap](Application%202%20-%20CollabMap%20Data%20Quality.ipynb)
 - Application 3: [Identifying instructions from chat messages in the Radiation Response Game](Application%203%20-%20RRG%20Messages.ipynb)
+
+In addition, we also provide here extra materials to help with replicating the
+experiments and to document extra experiments we carried out, which are not
+included in the paper due to space constraints.
+
+- [Common cross validation test code](Cross%20Validation%20Code.ipynb): explaining our evaluation method as implemented in [`analytics.py`](analytics.py) (and used in the three above notebooks).
+- [Extra 1 - Comparing machine learning algorithms](Extra%201%20-%20Comparing%20ML%20algorithms.ipynb): we compared the performance of a number of classifiers provided by the [scikit-learn package](http://scikit-learn.org/stable/) over our datasets in terms of accuracy and time.
