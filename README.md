@@ -66,3 +66,8 @@ included in the paper due to space constraints.
 
 - [Common cross validation test code](Cross%20Validation%20Code.ipynb): explaining our evaluation method as implemented in [`analytics.py`](analytics.py) (and used in the three above notebooks).
 - [Extra 1 - Comparing machine learning algorithms](Extra%201%20-%20Comparing%20ML%20algorithms.ipynb): we compared the performance of a number of classifiers provided by the [scikit-learn package](http://scikit-learn.org/stable/) over our datasets in terms of accuracy and time.
+- Extra 2: we compare the performance of the decision tree classifiers on
+_unbalanced_ datasets v.s. _balanced_ ones. Note that we did not balance data
+in Application 3 as they are already fairly balanced.
+    + [Extra 2.1 - Unbalanced Data - Application 1](Extra%202.1%20-%20Unbalanced%20Data%20-%20Application%201.ipynb)
+    + [Extra 2.2 - Unbalanced Data - Application 2](Extra%202.1%20-%20Unbalanced%20Data%20-%20Application%202.ipynb)
