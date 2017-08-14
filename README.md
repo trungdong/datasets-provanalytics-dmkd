@@ -70,4 +70,4 @@ included in the paper due to space constraints.
 _unbalanced_ datasets v.s. _balanced_ ones. Note that we did not balance data
 in Application 3 as they are already fairly balanced.
     + [Extra 2.1 - Unbalanced Data - Application 1](Extra%202.1%20-%20Unbalanced%20Data%20-%20Application%201.ipynb)
-    + [Extra 2.2 - Unbalanced Data - Application 2](Extra%202.1%20-%20Unbalanced%20Data%20-%20Application%202.ipynb)
+    + [Extra 2.2 - Unbalanced Data - Application 2](Extra%202.2%20-%20Unbalanced%20Data%20-%20Application%202.ipynb)
