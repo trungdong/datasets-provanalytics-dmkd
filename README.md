@@ -51,7 +51,12 @@ network metrics calculated from those graphs (which are used in our analyses).
     of the (historical) provenance graph of each data entity (i.e. the graph
     records how it was generated).
 3. Provenance from the [Radiation Response Game](https://dx.doi.org/10.1007/978-3-319-06498-7_4) (RRG).
-    - `rrg/depgraphs-k.csv`, e.g. [`rrg/depgraphs-5.csv`](rrg/depgraphs-5.csv): the PNM of the provenance dependency graph level _k_ of a RRG chat message (k = 1..15).
+    - `rrg/depgraphs-k.csv`, e.g. [`rrg/depgraphs-5.csv`](rrg/depgraphs-5.csv): 
+    the PNM of the provenance dependency graph level _k_ of a RRG chat message
+    (k = 1..18).
+    - [`rrg/depgraphs.csv`](rrg/depgraphs.csv): the PNM of the full dependency
+    graph of a RRG chat message (i.e. without restricting a dependency graph
+    to _k_ edges away from a message entity).
     - [`rrg/ancestor-graphs.csv`](rrg/ancestor-graphs.csv): the PNM of the 
     (historical) provenance graph of the messages.
 
