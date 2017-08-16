@@ -47,9 +47,13 @@ network metrics calculated from those graphs (which are used in our analyses).
 2. Provenance of [CollabMap](https://collabmap.org/) data:
     - [`collabmap/trust_values.csv`](collabmap/trust_values.csv): the trust value of each data entity from CollabMap (identified by the `id` column).
     - [`collabmap/depgraphs.csv`](collabmap/depgraphs.csv): the PNM of the _provenance dependency graph_ of each data entity. (See our paper for the definition of a provenance dependency graph)
-    - [`collabmap/ancestor-graphs.csv`](collabmap/ancestor-graphs.csv): the PNM of the provenance graph of each data entity.
+    - [`collabmap/ancestor-graphs.csv`](collabmap/ancestor-graphs.csv): the PNM
+    of the (historical) provenance graph of each data entity (i.e. the graph
+    records how it was generated).
 3. Provenance from the [Radiation Response Game](https://dx.doi.org/10.1007/978-3-319-06498-7_4) (RRG).
     - `rrg/depgraphs-k.csv`, e.g. [`rrg/depgraphs-5.csv`](rrg/depgraphs-5.csv): the PNM of the provenance dependency graph level _k_ of a RRG chat message (k = 1..15).
+    - [`rrg/ancestor-graphs.csv`](rrg/ancestor-graphs.csv): the PNM of the 
+    (historical) provenance graph of the messages.
 
 
 ## IPython Notebooks
@@ -71,3 +75,13 @@ _unbalanced_ datasets v.s. _balanced_ ones. Note that we did not balance data
 in Application 3 as they are already fairly balanced.
     + [Extra 2.1 - Unbalanced Data - Application 1](Extra%202.1%20-%20Unbalanced%20Data%20-%20Application%201.ipynb)
     + [Extra 2.2 - Unbalanced Data - Application 2](Extra%202.2%20-%20Unbalanced%20Data%20-%20Application%202.ipynb)
+- Extra 3: we apply our provenance network analytics method on the _historical_
+provenance of data, i.e. the provenance recording how the data was produced,
+instead of using the dependency graphs of data, or the  _forward_ provenance,
+as shown in
+[Application 2](Application%202%20-%20CollabMap%20Data%20Quality.ipynb) and 
+[Application 3](Application%203%20-%20RRG%20Messages.ipynb). Since Application
+1 looks at provenance graphs from whole provenance documents, this experiment
+is not applicable.
+    + [Extra 3.1 - Historical Provenance - Application 2](Extra%203.1%20-%20Historical%20Provenance%20-%20Application%202.ipynb)
+    + [Extra 3.2 - Historical Provenance - Application 3](Extra%203.2%20-%20Historical%20Provenance%20-%20Application%203.ipynb)
